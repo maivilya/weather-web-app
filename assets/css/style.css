@@ -761,3 +761,25 @@ article.container::before {
   margin-inline: auto;
   margin-block: 12px;
 }
+
+/*-----------------------------------*\
+  #ERROR SECTION
+\*-----------------------------------*/
+.error-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  height: 100svh;
+  background-color: var(--background);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 8;
+}
+
+.error-content .btn-primary {
+  margin-block-start: 20px;
+}
